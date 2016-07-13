@@ -1,0 +1,13 @@
+PRAGMA foreign_keys = "0";
+PRAGMA encoding
+SELECT type,name,sql,tbl_name FROM sqlite_master UNION SELECT type,name,sql,tbl_name FROM sqlite_temp_master;
+SELECT COUNT(*) FROM (SELECT `_rowid_`,* FROM `Counts` ORDER BY `_rowid_` ASC);
+SELECT `_rowid_`,* FROM `Counts` ORDER BY `_rowid_` ASC LIMIT 0, 50000;
+SELECT type,name,sql,tbl_name FROM sqlite_master UNION SELECT type,name,sql,tbl_name FROM sqlite_temp_master;
+SELECT COUNT(*) FROM (SELECT `_rowid_`,* FROM `Counts` ORDER BY `_rowid_` ASC);
+SELECT `_rowid_`,* FROM `Counts` ORDER BY `_rowid_` ASC LIMIT 0, 50000;
+SELECT type,name,sql,tbl_name FROM sqlite_master UNION SELECT type,name,sql,tbl_name FROM sqlite_temp_master;
+SELECT COUNT(*) FROM (SELECT `_rowid_`,* FROM `Counts` ORDER BY `_rowid_` ASC);
+SELECT `_rowid_`,* FROM `Counts` ORDER BY `_rowid_` ASC LIMIT 0, 50000;
+SELECT COUNT(*) FROM (SELECT `_rowid_`,* FROM `Counts` ORDER BY `count` DESC);
+SELECT `_rowid_`,* FROM `Counts` ORDER BY `count` DESC LIMIT 0, 50000;
