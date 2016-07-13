@@ -6,3 +6,5 @@ Note: must have SQLite opened with sqlite file uploaded.
 2. On terminal type command: "python emaildb.py"
 3. "Enter file name: " type "mbox.txt"
 4. CREATE TABLE Counts (org TEXT, count INTEGER)
+
+to clear tables: "DELETE FROM Counts;"
