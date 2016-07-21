@@ -1,3 +1,3 @@
 Multi-Table Database - Tracks
 
-- Similar to itunes build, but we are building one with scratch.
+- Similar to Apple's itunes build (probably not), but we are building one with scratch.
